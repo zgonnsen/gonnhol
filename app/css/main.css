@@ -1,0 +1,55 @@
+:root{
+    --bg-color:white;
+    --font-color:black;
+    --bg-fontcolor: white;
+    --dividercolor: rgba(0,0,0,0.2);
+}
+
+body, html,section, a,h1, p{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana,sans-serif;
+    font-size:15px;
+    line-height:1.5;
+    height: 100%;
+
+}
+p{
+    color:var(--font-color);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("/app/images/building.jpg");
+    min-height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgtext {
+    font-size: 7rem;
+    color: var(--bg-fontcolor);
+    text-align: center;
+}
+
+.search{
+    width:75%;
+    display:flex;
+    flex-direction: column;
+    margin: 10px auto;
+    
+    box-shadow: 0 4px 8px 0 var(--dividercolor);
+   
+}
+.divider {
+    border-bottom: 1px solid  var(--dividercolor);
+    padding: 15px;
+    padding-left: 40px;
+    font-size: 1.2rem;
+    
+}

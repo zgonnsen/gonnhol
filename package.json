@@ -1,0 +1,20 @@
+{
+  "name": "gonnhol",
+  "version": "1.0.0",
+  "description": "Real Estate Research tool",
+  "main": "index.html",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "lite-server"
+  },
+  "keywords": [
+    "real",
+    "estate",
+    "properties"
+  ],
+  "author": "zach and greg",
+  "license": "MIT"
+}
