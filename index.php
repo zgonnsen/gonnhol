@@ -1,3 +1,8 @@
+<?php
+//Check that there is a session ongoing:
+include('../Login/session.php')
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

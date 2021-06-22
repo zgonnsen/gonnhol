@@ -22,3 +22,22 @@ $("nav a").click(function(){
 
     }
 });
+
+//Call Python script
+$(".btn").click(function(){ 
+    console.log("Python Button Pressed");
+ 
+    $.ajax({ 
+         type:'get', 
+         url:"/server/python/test.py", 
+         cache:false, 
+         async:'asynchronous', 
+         dataType:'json', 
+         success: function(data) { 
+           console.log(JSON.stringify(data)) 
+         }, 
+         error: function(request, status, error) { 
+           console.log("Error: " + error) 
+         } 
+      }); 
+   }); 
